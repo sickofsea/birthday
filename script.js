@@ -20,7 +20,7 @@ console.log(love());
 `;
 
 const text1Full =
-"нанана хайрдаа төрсөн өдрийн мэнд хүргэе.Ингээд том аниа болж байгаа нумуудаа.Төрсөн өдрөөр нь цуг байж чадаагүйд хайрыгаа уучлаарай.Цаашдаа хайрыхаа хажууд дандаа байнаа зөндөө их хайртай шүү.цаашдаа зөндөө олон дурсамжийг хамтдаа бүтээе";
+"нанана хайрдаа төрсөн өдрийн мэнд хүргэе.Ингээд том аниа болж байгаа нумуудаа.Төрсөн өдрөөр нь цуг байж чадаагүйд хайрыгаа уучлаарай.Цаашдаа хайрыхаа хажууд дандаа байнаа зөндөө их хайртай шүү.цаашдаа зөндөө олон дурсамжийг хамтдаа бүтээнээ";
 
 let codeIndex = 0;
 let textIndex = 0;
@@ -97,3 +97,11 @@ function startConfetti() {
   }
   update();
 }
+/* GIFT BUTTON LOGIC */
+const giftBtn = document.getElementById("giftBtn");
+const giftText = document.getElementById("giftText");
+
+giftBtn.onclick = () => {
+  giftText.classList.remove("hidden");
+  giftBtn.style.display = "none";
+};
