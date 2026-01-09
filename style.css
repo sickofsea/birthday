@@ -125,3 +125,11 @@ button:hover {
   inset: 0;
   pointer-events: none;
 }
+/* GIFT TEXT */
+.gift-text {
+  margin-top: 30px;
+  font-size: 32px;
+  color: #ffb6c1;
+  text-shadow: 0 0 15px hotpink;
+}
+
